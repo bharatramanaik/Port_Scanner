@@ -1,0 +1,76 @@
+/* #mynav{
+    background-color: aqua;
+    height: 2.6cm;
+    width: 45cm;
+    padding: 0cm;
+    margin: -10px;
+} */
+
+#entry{
+    display: flex;
+    padding-top: 2cm;
+    padding-left: 2cm;
+    
+}
+
+#signinbtn{
+    margin-top: 4cm;
+    margin-right: 1.8cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    height: 1.2cm;
+    width: 7cm;
+    background-color: #0050da;
+    color: aliceblue;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #0050da;
+}
+
+#signupbtn{
+    margin-top: 4cm;
+    margin-right: 3cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    height: 1.2cm;
+    width: 7cm;
+    background-color: #fff;
+    border-radius: 5px;
+    border-style: solid;
+    color: #0050da;
+    border-color: #0050da;
+}
+
+
+#signinbtn:hover{
+    border-style: solid;
+    border-color: #0050da;
+    color: #0050da;
+    cursor: pointer;
+    border-radius: 0.3cm;
+    transition: 700ms;
+    background-color: #fff;
+}
+
+#signupbtn:hover{
+    border-style: solid;
+    border-color: #0050da;
+    cursor: pointer;
+    border-radius: 0.3cm;
+    color: aliceblue;
+    transition: 700ms;
+    background-color: #0050da;
+}
+
+#myimg{
+    margin-right: 3cm;
+}
+
+.copy{
+    padding: 40px;
+    margin-top: 2cm;
+    /* text-align: center; */
+    padding-left: 14cm;
+    font-size: 26px;
+    /* background-color: #747474; */
+}

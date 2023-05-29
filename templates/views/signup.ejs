@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Scanner : SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="homes.css">
+    <script type="text/javascript">
+        function preventBack() {
+            window.history.forward(); 
+        }
+          
+        setTimeout("preventBack()", 0);
+          
+        window.onunload = function () { null };
+    </script>
+</head>
+<body>
+
+    <%- include('../partials/header') %>
+    <div id="signupp">
+        <form action="/signup" method="post" id="signupf">
+            <h2 id="myheadup">SignUp</h2>
+            <label for="email" id="emaillabelup">Email</label><br>
+            <input type="email" name="email" id="myemailup" placeholder="Enter your email " required>
+            <br><br>
+            <label for="password" id="passlabelup">Password</label><br>
+            <input type="password" name="password" id="mypassup" minlength="8" placeholder="Enter your password" required>
+            <br><br>
+            <label for="password" id="cpasslabel">Confirm password</label><br>
+            <input type="password" name="confirmpassword" id="mycpass" minlength="8" placeholder="Confirm your password" required>
+            <br><br>
+            <span class="formerror" id="passwordup"> 
+                <%if(info.length>0){%>
+                <%= info %><% }%> 
+            </span>
+            <br>
+            <button type="submit" id="mybutnup">Signup</button>
+        </form>
+        <form action="/signin" method="get" id="reverseup">
+            <p>already have an account? <button type="submit" id="revbtnup">go to signin page</button></p>
+        </form>
+    </div>
+    <div class="copy">
+        <footer class="copyright">copyright © 2023 all rights reserved</footer>
+    </div>
+</body>
+</html>

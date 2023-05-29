@@ -1,0 +1,138 @@
+#signupp{
+    padding-top: 2cm;
+    padding-left: 12cm;
+    padding-right: 14cm;
+    
+}
+
+#signupf{
+    text-align: center;
+    padding-top: 0.8cm;
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+    padding-bottom: 1cm;
+    border-radius: 4px;
+    border-width: 1.4px;
+    border-color: rgb(219, 219, 219);
+    border-style: solid;
+    box-shadow: 7px 7px 7px rgba(144, 144, 144, 0.933);
+    background-color: #ffffff;
+}
+
+#myemailup{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    height: 1.2cm;
+    width: 10cm;
+    margin-top:0.4cm ;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(198, 198, 198);
+    margin-bottom: 0.3cm;
+}
+
+#mypassup{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    height: 1.2cm;
+    width: 10cm;
+    margin-top:0.2cm;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(198, 198, 198);
+    margin-bottom: 0.3cm;
+}
+#mycpass{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    height: 1.2cm;
+    width: 10cm;
+    margin-top:0.2cm;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(198, 198, 198);
+}
+
+#mybutnup{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    height: 1.2cm;
+    width: 10cm;
+    margin-top:0.5cm;
+    background-color: #fff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #0050da;
+}
+
+#mybutnup:hover{
+    border-style: solid;
+    border-color: #0050da;
+    cursor: pointer;
+    border-radius: 0.3cm;
+    color: aliceblue;
+    transition: 700ms;
+    background-color: #0050da;
+}
+
+
+#reverseup{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    padding-top: 0.5cm;
+    text-align: center;
+}
+
+#revbtnup{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #0050da;
+    padding: 5px;
+}
+
+#revbtnup:hover{
+    border-style: solid;
+    border-color: #0050da;
+    cursor: pointer;
+    border-radius: 0.3cm;
+    color: aliceblue;
+    transition: 700ms;
+    background-color: #0050da;
+}
+
+#passwordup{
+    padding-right: 5cm;
+    color: red;
+    font-size: 18px;
+}
+
+#myheadup{
+    font-size: 1.13cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0050da;
+    padding-bottom: 0.5cm;
+}
+
+#emaillabelup{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 8.9cm;
+    font-size: 0.5cm;
+    color: #0050da;
+}
+
+#passlabelup{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 8.2cm;
+    font-size: 0.5cm;
+    color: #0050da;
+}
+
+#cpasslabel{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 6.2cm;
+    font-size: 0.5cm;
+    color: #0050da;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Scanner : SignIn</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="homes.css">
+    <script type="text/javascript">
+        function preventBack() {
+            window.history.forward(); 
+        }
+          
+        setTimeout("preventBack()", 0);
+          
+        window.onunload = function () { null };
+    </script>
+</head>
+<body>
+    <%- include('../partials/header') %>
+    <div id="signinp">
+        <form action="/signin" method="post" id="signinf">
+            <h2 id="myheadin">SignIn</h2>
+            <label for="email" id="emaillabel">Email</label><br>
+            <input type="email" name="email" id="myemailin" placeholder="Enter your email" required>
+            <br><br>
+            <label for="password" id="passlabel">Password</label><br>
+            <input type="password" name="password" id="mypassin" placeholder="Enter your password" minlength="8" required>
+            <br><br>
+            <span class="formerror" id="passwordin"> 
+                <%if(info.length>0){%>
+                <%= info %><% }%> 
+            </span>
+            <br>
+            <button type="submit" id="mybutnin">SignIn</button>
+        </form>
+        <form action="/signup" method="get" id="reversein">
+            <p>Dont have an account?  <button type="submit" id="revbtnin">Create one</button></p> 
+        </form>
+    </div>
+    <div class="copy">
+        <footer class="copyright">copyright © 2023 all rights reserved</footer>
+    </div>
+</body>
+</html>
